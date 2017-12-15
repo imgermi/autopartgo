@@ -72,7 +72,7 @@
 					<label for="info_respuestos"><?= __('cotizar 18'); ?></label>
 					<textarea name="info_respuestos" id="info_respuestos" placeholder="<?= __('cotizar 19'); ?>"><?= isset($_POST['info_respuestos']) ? $_POST['info_respuestos'] : ''?></textarea>
 				</fieldset>
-				<button type="submit" class="yellow-btn" name="enviar_cotizar"><?= __('cotizar 19'); ?></button>
+				<button type="submit" class="yellow-btn" name="enviar_cotizar"><?= __('cotizar 20'); ?></button>
 			</form>
 			<?php } ?>	
 			

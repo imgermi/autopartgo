@@ -116,6 +116,36 @@ return array(
 		'Enviar'
 	),
 
+	// Nosotros
+	'nosotros' => array(
+		'<strong>Nosotros</strong>',
+		'AutopartGo! es el mejor servicio de atención personalizada para repuestos de cualquier vehículo. Ofrecemos un servicio eficaz que resuelve su búsqueda de autopartes en el menor tiempo posible.',
+		'Bienvenido a AutoPartGo!',
+		'Entregamos piezas originales compatibles con tu automóvil; pueden enviarse reemplazos de carrocería, interiores, suspensión, piezas de alto rendimiento y demás repuestos necesarios para el funcionamiento óptimo de cada modelo. Cuanta más información nos brinde de su búsqueda, más rápida va a ser la localización de la autoparte. Con especificaciones breves como un número de chasis y el modelo específico de su vehículo, podemos empezar a identificar el repuesto pretendido.',
+		'Con la dificultad que se presenta actualmente en el mercado, conseguir repuestos originales a precios accesibles es una tarea ardua que lleva mucho tiempo. Por eso, nosotros nos apoyamos en la visión de nuestros representantes e identificamos cada pieza única para brindarla de forma particular, así cada cliente pueda llevar a cabo la reparación de su vehículo sin inconvenientes.',
+		'Amplia Gama de Repuestos para todas las marcas y modelos',
+		'Encuentre respuestos para reemplazar tu modelo: fren   os, componentes de aire acondicionado, trenes delanteros, vidrios, puertas y mucho más.',
+		'Autopartes a precio de exportación',
+		'Brindamos repuestos originales y de reemplazo para reparaciones de cualquier tipo de vehículo. Podemos traer neumáticos, baterías, radiadores, bielas y todo tipo de autopartes originales.',
+		'Servicio Personalizado para cada cliente',
+		'Atención particular en cada cotización, para informar acerca de la disponibilidad de las autopartes en el menor tiempo posible y brindar repuestos originales al costo mínimo.'
+	),
+
+	// Contacto
+	'contacto' => array(
+		'Envíe su consulta',
+		'Pónganse en contacto con nosotros y lo asesoraremos para <br> poder identificar la pieza que su vehículo necesita.',
+		'Nombre*',
+		'Ingrese su nombre aquí',
+		'Email*',
+		'Ingrese su email aquí',
+		'País*',
+		'Seleccione un país',
+		'Mensaje*',
+		'Escriba su mensaje',
+		'Enviar'
+	),
+
 	// Necesita asesoría
 	'necesita_asesoria' => array(
 		'¿Necesita asesoría?',

@@ -18,7 +18,7 @@ return array(
 	* Opciones: desarrollo, produccion
 	* 
 	*/
-	'enviroment' => 'produccion',
+	'enviroment' => 'desarrollo',
 
 	/* 
 	* DOMINIOS PERMITIDOS
@@ -45,8 +45,8 @@ return array(
 	* que se genera automáticamente.
 	*
 	*/
-	// 'base_url' => 'http://192.168.0.152/dashboard/work/AutoPartGo/',
-	'base_url' => '',
+	'base_url' => 'http://192.168.0.152/dashboard/work/AutoPartGo/',
+	// 'base_url' => '',
 
 	/* 
 	* RUTA BASE
