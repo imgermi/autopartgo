@@ -1,0 +1,26 @@
+{
+  "name": "AutoPartGo",
+  "version": "1.0.0",
+  "description": "Business based in Miami, offering autopart shipping for the entire continent at an international price.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Weland",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "relaxed-json": "^1.0.1",
+    "vinyl-ftp": "^0.6.0"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^4.0.0"
+  }
+}

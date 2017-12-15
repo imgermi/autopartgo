@@ -1,0 +1,60 @@
+	
+		
+	</main>
+	
+	<footer>
+		<div class="container">
+			
+			<article class="sitemap">
+				<p>Sitemap</p>
+				<nav class="footer-nav">
+					<ul>
+						<li><a href="<?=url('home')?>" class=" <?= SECCION == 'home' ? 'active' : '' ?> "><?= __('nav 0'); ?></a></li>
+						<li><a href="<?=url('cotizar')?>" class=" <?= SECCION == 'cotizar' ? 'active' : '' ?> "><?= __('nav 1'); ?></a></li>
+						<li><a href="<?=url('nosotros')?>" class=" <?= SECCION == 'nosotros' ? 'active' : '' ?> "><?= __('nav 2'); ?></a></li>
+						<li><a href="<?=url('contacto')?>" class=" <?= SECCION == 'contacto' ? 'active' : '' ?> "><?= __('nav 3'); ?></a></li>
+						<li><a href="<?=url('medios-de-pago')?>" class=" <?= SECCION == 'medios-de-pago' ? 'active' : '' ?> "><?= __('nav 4'); ?></a></li>
+						<li><a href="<?=url('términos-y-condiciones')?>" class=" <?= SECCION == 'términos-y-condiciones' ? 'active' : '' ?> "><?= __('nav 5'); ?></a></li>
+					</ul>
+				</nav>
+			</article>
+
+			<article>
+				<p><?= __('footer 0'); ?></p>
+				<nav class="social">
+					<ul>
+						<li><a href="" class="fb">Facebook</a></li>
+						<li><a href="" class="tw">Twitter</a></li>
+					</ul>
+				</nav>
+			</article>
+
+			<article>
+				<p><?= __('footer 1'); ?></p>
+				<ul class="contact">
+					<li><a href="">123 5555 839 (USA)</a></li>
+					<li><a href="">011 4458 0294 (ARG)</a></li>
+					<li><a href="">45th Street & Bvd, Miami, Florida</a></li>
+				</ul>
+			</article>
+
+			<div class="copyright">
+				<span><?=date('Y')?> - AutoPartGo</span>
+				<a href="https://weland.com.ar" target="_blank">Website by Weland</a>
+			</div>
+
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+	<!-- <script src="js/bootstrap/bootstrap.min.js"></script> -->
+
+	<?php
+		Plugins::cargar();
+		$main_js = $minified->merge(BASE_PATH.'js/main.min.js', 'js', array('js/main.js'));
+		echo '<script src="'.str_replace(BASE_PATH, '', $main_js).'?v='.filemtime($main_js) .'"></script>'. PHP_EOL;
+	?>
+
+</body>
+
+</html>

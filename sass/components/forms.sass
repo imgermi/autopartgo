@@ -1,0 +1,66 @@
+// main: ../main.sass
+
+form
+	text-align: left
+	@media(min-width: 768px)
+		width: 450px
+		margin: auto
+		text-align: center
+		label
+			text-align: left
+	@media(min-width: 992px)
+		width: 500px
+		margin: auto
+	@media(min-width: 1200px)
+		width: 600px
+		margin: auto
+	fieldset, input, select, textarea, label
+		width: 100%
+		display: block
+		border-radius: 0
+	fieldset
+		margin-bottom: 30px
+	label
+		margin-bottom: 10px
+	input, select, textarea
+		padding: 15px
+		background: $white
+		-webkit-appearance: none
+		color: $light-black
+		border: 2px solid transparent
+		font-size: 16px
+		&:focus
+			outline: 0
+			border: 2px solid $yellow
+	input, select
+		height: 50px
+		padding: 0 15px
+	textarea
+		min-height: 100px
+	p
+		text-align: left
+		font-size: 24px
+		line-height: 28px
+		margin-bottom: 30px
+		padding-top: 35px
+.s_contacto
+	.top
+		background-image: url('../images/tops/contacto.jpg')
+	h2
+		br
+			display: none
+			@media(min-width: 768px)
+				display: inline
+	.floating-box
+		padding-bottom: 0
+	form
+		button
+			margin-bottom: 60px
+
+.s_cotizar
+	.top
+		background-image: url('../images/tops/cotizar.jpg')
+	h1
+		br
+			@media(min-width: 992px)
+				display: none

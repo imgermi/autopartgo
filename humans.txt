@@ -1,0 +1,18 @@
+
+/* Equipo */
+	
+	Diseño y Desarrollo: Juan Martín Germano 
+	Email: juanmartingermano [at] gmail.com
+	Ubicación: Capital Federal, Buenos Aires, Argentina
+
+	SEO y Contenido: Alejandro Aboy
+	Email: aboyalejandro [at] gmail.com
+	Ubicación: Capital Federal, Buenos Aires, Argentina 
+
+
+/* Sitio */
+
+	Estándares: HTML5, CSS3
+	Componentes: jQuery
+	Software: H5BP, CodeIgniter
+	Herramientas de Google: Tag Manager, Keywords.

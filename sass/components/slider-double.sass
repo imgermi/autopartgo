@@ -1,0 +1,108 @@
+// main: ../main.sass
+
+.slider-double-container
+	@media(min-width: 768px)
+		display: flex
+
+.slider-double
+	background-size: 0 0
+	img
+		width: 100%
+		&:focus
+			outline: 0
+	@media(min-width: 768px)
+		width: 50%
+		order: 2
+		img
+			display: none
+		.slide
+			background-size: cover
+			background-position: center center
+			background-repeat: no-repeat
+		.slick-list, .slick-track
+			height: 100%
+
+.slider-double-nav
+	background: $white
+	color: $light-black
+	padding: 20px 30px 85px
+	@media(min-width: 768px)
+		width: 50%
+		order: 1
+		padding: 50px 35px 85px
+	@media(min-width: 992px)
+		padding: 50px 40px 135px
+	.slide
+		h3
+			margin-bottom: 10px
+		&:focus
+			outline: none
+	.slick-dots
+		width: 100%
+		position: absolute
+		left: 0		
+		bottom: 30px
+		text-align: center
+		@media(min-width: 768px)
+			width: auto
+			left: 30px
+		li
+			display: inline-block
+			vertical-align: middle
+			margin: 0 6px
+			button
+				font-size: 0
+				display: block
+				width: 15px
+				height: 15px
+				border-radius: 50%
+				border: 0
+				background: #fff
+				box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
+				&:focus
+					outline: 0
+			&.slick-active
+				button
+					background: $red
+					transform: translateY(-2px)
+					box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+					&:focus
+						outline: 0
+					&:active
+						transform: translateY(0)
+	.slick-arrow
+		font-size: 0
+		display: block
+		width: 30px
+		height: 30px
+		background: $yellow
+		position: absolute
+		bottom: 30px
+		border-radius: 50%
+		box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
+		&:before
+			content: ''
+			background-size: 9px
+			background-position: center center
+			background-repeat: no-repeat
+			display: block
+			width: 100%
+			height: 100%
+		&:focus
+			outline: 0
+			transform: scale(0.9)
+			box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+		&:hover
+			transform: scale(0.9)
+			box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+		&:active
+			transform: none
+		&.slick-next
+			right: 30px
+			&:before
+				background-image: url('../images/icons/arrow-right.svg')
+				
+		&.slick-prev
+			right: 75px
+			&:before
+				background-image: url('../images/icons/arrow-left.svg')

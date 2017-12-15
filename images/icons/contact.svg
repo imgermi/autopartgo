@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2137.83 10866.173 78.658 90.215">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #333;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="contact-icon" transform="translate(2138.827 10867.173)">
+    <path id="Path_6" data-name="Path 6" class="cls-1" d="M14.855,1A13.832,13.832,0,0,1,25.673,23.48a14.064,14.064,0,0,1-8.97,5.107,13,13,0,0,1-1.848.122A13.855,13.855,0,1,1,14.855,1Z" transform="translate(8.237 37.793)"/>
+    <path id="Path_7" data-name="Path 7" class="cls-1" d="M1387,1360.116s1.344-16.073,23.192-16.723,22.387,16.723,22.387,16.723" transform="translate(-1387 -1270.985)"/>
+    <path id="Path_9" data-name="Path 9" class="cls-1" d="M18.549,1A17.549,17.549,0,1,1,1,18.549,17.549,17.549,0,0,1,18.549,1Z" transform="translate(40.564 -1)"/>
+    <path id="Path_8" data-name="Path 8" class="cls-1" d="M1436.619,1294.956c.049-.639-7.62,8.808-7.62,8.808l11.574-5.107S1436.57,1295.6,1436.619,1294.956Z" transform="translate(-1391.508 -1266.833)"/>
+  </g>
+</svg>
