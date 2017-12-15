@@ -15,7 +15,7 @@ return array(
 	* el cambio de idioma.
 	* Siempre el primero se usa como idioma por defecto.
 	*/
-	'idiomas_disponibles' => array('es', 'en'),
+	'idiomas_disponibles' => array('en', 'es'),
 
 	/* 
 	* MÉTODOS DE DETECCIÓN DE IDIOMA

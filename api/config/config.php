@@ -18,7 +18,7 @@ return array(
 	* Opciones: desarrollo, produccion
 	* 
 	*/
-	'enviroment' => 'desarrollo',
+	'enviroment' => 'produccion',
 
 	/* 
 	* DOMINIOS PERMITIDOS
