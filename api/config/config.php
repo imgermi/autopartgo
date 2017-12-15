@@ -31,7 +31,8 @@ return array(
 	*/
 	'dominios_permitidos' => array(
 		'localhost',
-		'192.168.0.152'
+		'192.168.0.152',
+		'autopartgo.herokuapp.com'
 	),
 
 	/* 
@@ -44,7 +45,8 @@ return array(
 	* que se genera automáticamente.
 	*
 	*/
-	'base_url' => 'http://192.168.0.152/dashboard/work/AutoPartGo/',
+	// 'base_url' => 'http://192.168.0.152/dashboard/work/AutoPartGo/',
+	'base_url' => '',
 
 	/* 
 	* RUTA BASE
