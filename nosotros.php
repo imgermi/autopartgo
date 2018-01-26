@@ -28,7 +28,7 @@
 <section class="floating-box-container">
 	<div class="container">
 		<article class="floating-box">
-			<h3><?= __('nosotros 2'); ?></h3>
+			<h2 class="section-heading"><?= __('nosotros 2'); ?></h2>
 			<p><?= __('nosotros 3'); ?></p>
 			<p><?= __('nosotros 4'); ?></p>
 		</article>
@@ -39,14 +39,14 @@
 	<div class="container">
 		<div class="slider-double-container">
 			<article class="slider-double">
-				<div class="slide" style="background-image: url('images/slider-nosotros/amplia-gama.jpg')">
-					<img src="images/slider-nosotros/amplia-gama.jpg">
+				<div class="slide" style="background-image: url('images/slider-nosotros/autopartgo-repuestos-gama-autopartes-marcas-modelos.jpg')">
+					<img src="images/slider-nosotros/autopartgo-repuestos-gama-autopartes-marcas-modelos.jpg" alt="Amplia gama de repuestos para todas las marcas y modelos">
 				</div>
-				<div class="slide" style="background-image: url('images/slider-nosotros/exportacion.jpg')">
-					<img src="images/slider-nosotros/exportacion.jpg">
+				<div class="slide" style="background-image: url('images/slider-nosotros/autopartgo-autopartes-precios-exportacion-repuestos.jpg')">
+					<img src="images/slider-nosotros/autopartgo-autopartes-precios-exportacion-repuestos.jpg" alt="Autopartes a precios de exportación">
 				</div>
-				<div class="slide" style="background-image: url('images/slider-nosotros/atencion.jpg')">
-					<img src="images/slider-nosotros/atencion.jpg">
+				<div class="slide" style="background-image: url('images/slider-nosotros/autopartgo-servicio-personalizado-repuestos-autopartes.jpg')">
+					<img src="images/slider-nosotros/autopartgo-servicio-personalizado-repuestos-autopartes.jpg" alt="Servicio personalizado de AutopartGo! para cada cliente">
 				</div>
 			</article>
 			<article class="slider-double-nav">
@@ -70,7 +70,7 @@
 
 <section class="banda">
 	<div class="container">
-		<article class="banda-mapa">	
+		<article class="banda-mapa">
 			<div class="js-mapa " data-cargado="false" data-lat="25.771112" data-lng="-80.2910264" style="height: 400px; z-index: 4000">
 				<a href="https://www.google.com.ar/maps/place/W+Flagler+St,+Miami,+FL,+USA/@25.771112,-80.2910264,17z/data=!4m5!3m4!1s0x88d9b9ce50c13d81:0x3ef384e65dbb20b0!8m2!3d25.7708028!4d-80.2902754" style="color: #fff;">
 					AutoPartGo! Google Maps

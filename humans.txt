@@ -1,13 +1,13 @@
 
 /* Equipo */
-	
-	Diseño y Desarrollo: Juan Martín Germano 
+
+	Diseño y Desarrollo: Juan Martín Germano
 	Email: juanmartingermano [at] gmail.com
 	Ubicación: Capital Federal, Buenos Aires, Argentina
 
 	SEO y Contenido: Alejandro Aboy
 	Email: aboyalejandro [at] gmail.com
-	Ubicación: Capital Federal, Buenos Aires, Argentina 
+	Ubicación: Capital Federal, Buenos Aires, Argentina
 
 
 /* Sitio */

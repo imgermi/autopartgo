@@ -54,8 +54,8 @@
     # Options +SymLinksIfOwnerMatch
 
     # (4)
-     # RewriteBase /dashboard/work/AutoPartGo/
-     RewriteBase /
+      RewriteBase /weland/AutoPartGo/
+    # RewriteBase /
 
     # (5)
     # RewriteOptions <options>

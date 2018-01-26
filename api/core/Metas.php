@@ -12,6 +12,7 @@ class Metas{
 
 	public $titulo;
 	public $descripcion;
+	public $keywords;
 	public $img;
 
 	private static $secciones = array();
@@ -21,7 +22,7 @@ class Metas{
 	* Obtengo las metas de una sección
 	*/
 	public static function obtener($seccion = SECCION, $valores = array()){
-		
+
 		if(! array_key_exists($seccion, Metas::$secciones)){
 			Metas::construir($seccion, $valores);
 		}
@@ -37,7 +38,7 @@ class Metas{
 	}
 
 
-	/** 
+	/**
 	* Creo el objeto Metas de una sección
 	*/
 	private function __construct($seccion, $valores){
@@ -46,11 +47,12 @@ class Metas{
 
 		$this->titulo 	 	= $this->generar('titulo', $this->seccion, $valores);
 		$this->descripcion 	= $this->generar('descripcion', $this->seccion, $valores);
+		$this->keywords 	= $this->generar('keywords', $this->seccion, $valores);
 		$this->img 		 	= $this->generar('img', $this->seccion, $valores);
 	}
 
 
-	/** 
+	/**
 	* Prepara el contenido final de una meta
 	* @return Devuelve el valor de la meta
 	*/
@@ -65,7 +67,7 @@ class Metas{
 	}
 
 
-	/** 
+	/**
 	* Obtengo el volor para una meta
 	* @return Devuelve el valor de la meta
 	*/
@@ -97,7 +99,7 @@ class Metas{
 	}
 
 
-	/** 
+	/**
 	* Remueve las comillas dobles y el cualquier HTML para que no se rompa la página
 	*/
 	private function limpiar($valor){

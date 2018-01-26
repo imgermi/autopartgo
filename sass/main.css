@@ -203,7 +203,7 @@ body.nav-active {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fonts-b-loaded .nav-principal ul li a, .fonts-b-loaded footer article p, .fonts-b-loaded h1 strong, .fonts-b-loaded h3, .fonts-b-loaded h5, .fonts-b-loaded .yellow-btn, .fonts-b-loaded form label, .fonts-b-loaded form p {
+.fonts-b-loaded .nav-principal ul li a, .fonts-b-loaded footer article p, .fonts-b-loaded h1 strong, .fonts-b-loaded h3, .fonts-b-loaded .section-heading, .fonts-b-loaded h5, .fonts-b-loaded .yellow-btn, .fonts-b-loaded form label, .fonts-b-loaded form p {
   font-family: KanitSemiBold, sans-serif;
 }
 
@@ -254,6 +254,13 @@ h3 {
   font-size: 28px;
   line-height: 36px;
   margin-bottom: 30px;
+}
+
+.section-heading {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 h5 {
@@ -621,6 +628,10 @@ footer article .social ul li a.tw:before {
   content: '\f099';
 }
 
+footer article .social ul li a.insta:before {
+  content: '\f16d';
+}
+
 footer article .social ul li a:hover:before {
   color: #FBDD12;
 }
@@ -957,40 +968,8 @@ form p {
   padding-top: 35px;
 }
 
-.s_contacto .top {
-  background-image: url("../images/tops/contacto.jpg");
-}
-
-.s_contacto h2 br {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .s_contacto h2 br {
-    display: inline;
-  }
-}
-
-.s_contacto .floating-box {
-  padding-bottom: 0;
-}
-
-.s_contacto form button {
-  margin-bottom: 60px;
-}
-
-.s_cotizar .top {
-  background-image: url("../images/tops/cotizar.jpg");
-}
-
-@media (min-width: 992px) {
-  .s_cotizar h1 br {
-    display: none;
-  }
-}
-
 .s_home .top {
-  background-image: url("../images/tops/home.jpg");
+  background-image: url("../images/tops/autopartes-y-repuestos-originales-vehiculo-slide.jpg");
 }
 
 .s_home .floating-box-container {
@@ -1103,7 +1082,7 @@ form p {
 }
 
 @media (min-width: 992px) {
-  .s_home .medios-pago article, .s_home .medios-pago h3 {
+  .s_home .medios-pago article, .s_home .medios-pago h4 {
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 0;
@@ -1122,7 +1101,7 @@ form p {
 }
 
 .s_nosotros .top {
-  background-image: url("../images/tops/nosotros.jpg");
+  background-image: url("../images/tops/autopartgo-nosotros-autopartes-y-repuestos-envios-latinoamerica.jpg");
 }
 
 .s_nosotros .floating-box-container {
@@ -1147,4 +1126,65 @@ form p {
   .s_nosotros .floating-box-container .floating-box {
     padding: 45px 100px;
   }
+}
+
+.s_cotizar .top {
+  background-image: url("../images/tops/autopartgo-autopartes-y-repuestos-formulario-cotizacion.jpg");
+}
+
+@media (min-width: 992px) {
+  .s_cotizar h1 br {
+    display: none;
+  }
+}
+
+.s_cotizar form {
+  margin-bottom: 25px;
+}
+
+.s_cotizar small {
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  color: #808080;
+}
+
+@media (min-width: 768px) {
+  .s_cotizar small {
+    padding: 0 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .s_cotizar small {
+    padding: 0 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .s_cotizar small {
+    padding: 0 300px;
+  }
+}
+
+.s_contacto .top {
+  background-image: url("../images/tops/autopartgo-autopartes-y-repuestos-formulario-contacto.jpg");
+}
+
+.s_contacto h2 br {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .s_contacto h2 br {
+    display: inline;
+  }
+}
+
+.s_contacto .floating-box {
+  padding-bottom: 0;
+}
+
+.s_contacto form button {
+  margin-bottom: 60px;
 }

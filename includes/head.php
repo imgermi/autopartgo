@@ -16,6 +16,7 @@ $empresa = Config::obtener('empresa');
 
     <title><?= $metas->titulo?></title>
     <meta name="description"            content="<?= $metas->descripcion;?>"/>
+    <meta name="keywords"               content="<?= $metas->keywords;?>"/>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card"           content="summary_large_image"/>
@@ -67,7 +68,7 @@ $empresa = Config::obtener('empresa');
             'sass/main.css'
       ));
     echo ' <link rel="stylesheet" href="'.$main_css.'?v='.filemtime(BASE_PATH.$main_css).'" />'."\r\n";?>
-    
+
     <!-- Carga las tipografías -->
     <script async src="js/fonts.js"></script>
 

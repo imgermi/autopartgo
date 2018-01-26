@@ -46,7 +46,7 @@ return array(
 	*
 	*/
 	// 'base_url' => 'http://192.168.0.152/dashboard/work/AutoPartGo/',
-	'base_url' => '',
+	'base_url' => 'http://localhost:8888/weland/AutoPartGo/',
 
 	/* 
 	* RUTA BASE
