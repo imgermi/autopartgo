@@ -146,7 +146,7 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ 
 RewriteRule ^(.*)$ - [R=404,L]
 
 
-# Página de mantenimiento 
+# Página de mantenimiento
 # (para actualizar el sitio sin miedo a que alguien lo vea roto)
 #RewriteCond %{REMOTE_ADDR} !^181\.170\.221\.236$
 # RewriteCond %{THE_REQUEST} !(.+)\.css
@@ -168,6 +168,9 @@ RewriteCond %{REQUEST_URI} !^.*\.(jpg|css|js|gif|png)$ [NC] #Evita que se sobree
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^([a-z]{2})/(.*)         $2?idioma=$1 [QSA,PT]
+RewriteRule ^about-us$ nosotros.php [L,NC]
+RewriteRule ^contact$ contacto.php [L,NC]
+RewriteRule ^quotation$ cotizar.php [L,NC]
 #########################
 
 
@@ -175,7 +178,7 @@ RewriteRule ^([a-z]{2})/(.*)         $2?idioma=$1 [QSA,PT]
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^ejemplo/([0-9]+)-([^/]+)/?$     ejemplo.php?id=$1  [QSA,L]
-################## 
+##################
 
 ### Oculto las URL del CMS ###
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$

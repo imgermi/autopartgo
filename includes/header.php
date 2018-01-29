@@ -12,7 +12,7 @@
         </span>
       </button>
       <a href="" class="cabecera__logo">
-       <img src="images/autopartgo-logo-venta-autopartes-y-repuestos-latinoamerica.svg" alt="Venta de Autopartes a Latinoamérica | AutopartGo!">
+       <img src="images/autopartgo-logo-venta-autopartes-y-repuestos-latinoamerica.svg" alt="<?= __('nav__alt 0'); ?>">
       </a>
 
       <nav class="nav-principal">

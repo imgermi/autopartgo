@@ -16,6 +16,8 @@
   Plugins::activar('googleMaps');
   Plugins::activar('slick');
 
+  url('nosotros');
+
 ?>
 
 <section class="top">
@@ -40,13 +42,13 @@
 		<div class="slider-double-container">
 			<article class="slider-double">
 				<div class="slide" style="background-image: url('images/slider-nosotros/autopartgo-repuestos-gama-autopartes-marcas-modelos.jpg')">
-					<img src="images/slider-nosotros/autopartgo-repuestos-gama-autopartes-marcas-modelos.jpg" alt="Amplia gama de repuestos para todas las marcas y modelos">
+					<img src="images/slider-nosotros/autopartgo-repuestos-gama-autopartes-marcas-modelos.jpg" alt="<?= __('nosotros__alt 0'); ?>">
 				</div>
 				<div class="slide" style="background-image: url('images/slider-nosotros/autopartgo-autopartes-precios-exportacion-repuestos.jpg')">
-					<img src="images/slider-nosotros/autopartgo-autopartes-precios-exportacion-repuestos.jpg" alt="Autopartes a precios de exportación">
+					<img src="images/slider-nosotros/autopartgo-autopartes-precios-exportacion-repuestos.jpg" alt="<?= __('nosotros__alt 1'); ?>">
 				</div>
 				<div class="slide" style="background-image: url('images/slider-nosotros/autopartgo-servicio-personalizado-repuestos-autopartes.jpg')">
-					<img src="images/slider-nosotros/autopartgo-servicio-personalizado-repuestos-autopartes.jpg" alt="Servicio personalizado de AutopartGo! para cada cliente">
+					<img src="images/slider-nosotros/autopartgo-servicio-personalizado-repuestos-autopartes.jpg" alt="<?= __('nosotros__alt 2'); ?>">
 				</div>
 			</article>
 			<article class="slider-double-nav">

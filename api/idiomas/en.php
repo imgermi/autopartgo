@@ -11,6 +11,10 @@ return array(
 		'Terms and Conditions'
 	),
 
+	'nav__alt' => array(
+		'Autoparts Sale for Latinamerica | AutopartGo!' // logo
+	),
+
 	'footer' => array(
 		'Follow us',
 		'Contact us',
@@ -18,9 +22,10 @@ return array(
 
 	// HOME
 	'home_top' => array(
-		'Auto Parts Sale to <strong>Latin America</strong>',
+		'Auto Parts Sale to <br> <strong>Latin America</strong>',
 		'We provide our services in order to get your auto parts at lower prices than your local market.'
 	),
+
 	'home_realizar_pedido' => array(
 		'¿How to request a deliver?',
 		'Send form',
@@ -31,92 +36,119 @@ return array(
 		'While your auto part is on its way, we will make sure the shipping process is done efectively and your parts arrive in perfect conditions.',
 		'Auto Parts Quotation'
 	),
+
+	'home_realizar_pedido__alt' => array(
+		'Send form to ask for your car parts',
+		'Personalized attention for your autoparts search',
+		'Autoparts shipping to customer'
+	),
+
 	'home_medios_pago' => array(
-		'Medios de pago',
+		'Payment Methods',
 		'Paypal',
-		'Comuníquese con un representante',
+		'Get in touch with a representative',
 	),
+
 	'home_autopartgo' => array(
-		'¿Qué es AutoPartGo?',
-		'En AutopartGo! vendemos y enviamos piezas originales o alternativas compatibles con tu automóvil; pueden enviarse reemplazos de carrocería, interiores, suspensión, piezas de alto rendimiento y demás repuestos necesarios para el funcionamiento óptimo de cada modelo. Tan solo con un <strong>número de chasis (VIN)</strong> y el modelo específico, podemos comenzar nuestra localización del repuesto que usted busca.',
-		'Nosotros'
+		'What is AutopartGo?',
+		'In AutopartGo! We sell and ship original pieces compatible with your car; These include replacements of auto body, interiors, suspension, pieces of high performance and other replacements necessary for the ideal functioning of every vehicle. Only with a <strong>number of chassis (VIN)</strong> and the specific model of your car, we can begin our location of the auto part you are looking for.',
+		'About us'
 	),
+
+	'home_autopartgo__alt' => array(
+		'AutoPartGo! | Original replacements for your vehicle'
+	),
+
 	'home_slider_double' => array(
-		'Carrocería',
-		'Trabajamos con repuestos de carrocería originales y de reemplazo para lograr la misma calidad que tenían las piezas de su modelo; trabajamos con ópticas, soportes, faros, frentes, pisos, zócalos, chasis, guardabarros y más.',
-		'Suspensión, electricidad y aire acondicionado',
-		'Pueden importarse resortes, amortiguadores, embragues y diferentes soportes de suspensión que mejor se adapten a la dirección de su modelo.',
-		'Pueden proveerse cables, fusibles, relay y conectores para la electricidad de su vehículo.',
-		'Correspondientes condensadores, filtros y válvulas compatibles con el sistema de aire acondicionado de tu modelo.',
-		'Interior',
-		'Podemos brindarle diferentes soluciones para los repuestos del interior de su automóvil: paneles interiores de puertas, faldones traseros, interruptores, molduras internas, y mucho más.',
-		'Camionetas y SUV',
-		'Podemos localizar diferentes repuestos para camionetas 4x4, 4x2, todo terreno y SUV. Desde llantas, paragolpes, protecciones, podemos ofrecer cualquier autoparte personalizada para su requerimiento.',
-		'Alto rendimiento y competencias',
-		'Repuestos para amplificar la respuesta de los componentes del sistema de frenos, protección contra la ebullición y posterior perdida de eficiencia de altas temperaturas. Estas piezas brindadas por <strong>AutopartGo!</strong> proporcionan un frenado mas rápido, firme y consistente en la performance de la competencia.'
+		'Auto Body',
+		'We provide original auto body replacements to achieve the same quality as your car parts; we deliver supports, beacons, fronts, socles, chassis, mudguards and more.',
+		'Suspension, electricity and air conditioning',
+		'We can import springs, absorbers, clutches and different suspension supports that correctly fit to your car´s direction.',
+		'We can provide cables, fuses, relay and electricity connectors for your vehicle.',
+		'You can also ship condensers, filters and valves for the air conditioning system of your model.',
+		'Interior parts',
+		'We can offer different solutions for your car´s interior replacements: interior door panels, switches, internal moldings, and much more.',
+		'Vans and SUV',
+		'We can locate different autoparts for 4x4 or 4x2 pickups and SUV. We can deliver rims, bumpers, protections and tires for every car model.',
+		'High performance and competitions',
+		'We provide competition replacements to amplify the response of your brakes, protect against the boiling and diminish the loss of efficiency at high temperatures.'
+	),
+
+	'home_slider_double__alt' => array(
+		'Original auto body replacements for your car',
+		'Suspension, electricty and air conditioner replacement for your vehicle',
+		'Interior auto parts for your vehicle',
+		'Auto parts for 4x4, SUV and pickups',
+		'High performance and competition replacements'
 	),
 
 	// Cotizar
 	'cotizar' => array(
-		'<strong>Cotizar</strong> <br> autopartes',
-		'Podemos hacer llegar cualquier tipo de piezas desde AutopartGo! a todo Latinoamérica. Complete el formulario para que podamos asesorarlo lo más rápido posible.',
-		'Datos personales',
-		'Nombre*',
-		'Ingrese su nombre aquí',
+		'<strong>Price </strong> <br> your Autoparts',
+		'We can deliver pieces from AutopartGo! to Latin America. Fill the form and we will attend your requirement as soon as possible',
+		'Personal information',
+		'Name*',
+		'Your name here',
 		'Email*',
-		'Ingrese su email aquí',
+		'Your email here',
 		'País*',
-		'Seleccione un país',
-		'Datos de su vehículo',
-		'Marca*',
-		'Ingrese la marca aquí',
-		'Modelo*',
-		'Ingrese el modelo aquí',
-		'Año*',
-		'Ingrese el año aquí',
-		'Número de chasis (VIN)*',
-		'Ingrese el VIN aquí',
-		'Información de repuestos*',
-		'Escriba la información de repuestos',
-		'Enviar',
-		'La responsabilidad de AutopartGo! se limita al envío del producto desde Miami a su respectivo País. El sistema del courier elegido o de transporte será el responsable de la integridad de las piezas durante el traslado de las mismas hacia su destino final del comprador.'
+		'Select a country',
+		'Vehicle information',
+		'Brand*',
+		'Brand here',
+		'Model*',
+		'Model here',
+		'Year*',
+		'Year here',
+		'Chassis number (VIN)*',
+		'VIN here',
+		'Replacement information*',
+		'List the replacements you need and any additional information you want',
+		'Send',
+		'AutopartGo! limits itself to the product shipping from Miami to your country. The chosen courier system will be the responsible of your parts integrity during the shipping to the final destination of the buyer.'
 	),
 
 	// Nosotros
 	'nosotros' => array(
-		'<strong>Nosotros</strong>',
-		'AutopartGo! es el mejor servicio de atención personalizada para repuestos de cualquier vehículo. Ofrecemos un servicio eficaz que resuelve su búsqueda de autopartes en el menor tiempo posible.',
-		'Bienvenido a AutoPartGo!',
-		'Entregamos piezas originales o alternativas compatibles con tu automóvil; pueden enviarse reemplazos de carrocería, interiores, suspensión, piezas de alto rendimiento y demás repuestos necesarios para el funcionamiento óptimo de cada modelo. Cuanta más información nos brinde de su búsqueda, más rápida va a ser la localización de la autoparte. Con especificaciones breves como un número de chasis y el modelo específico de su vehículo, podemos empezar a identificar el repuesto pretendido.',
-		'Con la dificultad que se presenta actualmente en el mercado, conseguir repuestos originales a precios accesibles es una tarea ardua que lleva mucho tiempo. Por eso, nosotros nos apoyamos en la visión de nuestros representantes e identificamos cada pieza única para brindarla de forma particular, así cada cliente pueda llevar a cabo la reparación de su vehículo sin inconvenientes.',
-		'Amplia Gama de Repuestos para todas las marcas y modelos',
-		'Encuentre respuestos para reemplazar tu modelo: frenos, componentes de aire acondicionado, trenes delanteros, vidrios, puertas y mucho más.',
-		'Autopartes a precio de exportación',
-		'Brindamos repuestos originales y de reemplazo para reparaciones de cualquier tipo de vehículo. Podemos enviar todo tipo de autopartes originales mientras la regulación sobre importaciones de su país lo permita. Una vez, enviado, la responsabilidad sobre el desaduanaje dependerá de la empresa courrier y del comprador conforme a la legislación nacional de cada país.',
-		'Servicio Personalizado para cada cliente',
-		'Atención particular en cada cotización, para informar acerca de la disponibilidad de las autopartes en el menor tiempo posible y brindar repuestos originales al costo mínimo.'
+		'<strong>About Us</strong>',
+		'AutopartGo! is the best service of personalized attention for any car replacement. We offer an effective service that solves your search of auto parts as fast as possible.',
+		'Welcome to AutoPartGo!',
+		'In AutopartGo! we ship original pieces compatible with your car; these include replacements of auto body, interiors, suspension, pieces of high performance and other replacements necessary for the ideal functioning of every vehicle. The more information you give, the faster we will reach your autoparts. With brief specifications like a number of chassis and the specific model of your vehicle, we can start identifying the claimed replacement.',
+		'Nowadays, importing auto parts to your market could be a hard and expensive process. Our comercial agents identify every unique piece and reach the original replacements at an accessible price, in order to satisfy everything that our customers are looking for to get their vehicles fixed.',
+		'High range of replacements for every brand and model',
+		'Find auto parts for your model: brakes, air conditioning components, wheel assemblies, glasses, doors and much more.',
+		'Export-price replacements',
+		'We provide original replacements to fix any type of vehicle model. We can bring original auto parts to your country as long as your country import regulation allows it.',
+		'Personalized attention to each costumer',
+		'Specialized attention on every quotation; we bring a full report about your auto parts availability as fast as possible and at the minimun cost.'
+	),
+
+	'nosotros__alt' => array(
+		'High range of auto parts for every brand and car model',
+		'Export-price replacements',
+		'Personalized service for each customer'
 	),
 
 	// Contacto
 	'contacto' => array(
-		'Contacto',
-		'Póngase en contacto con nosotros y lo asesoraremos para poder identificar la pieza que su vehículo necesita',
-		'Nombre*',
-		'Ingrese su nombre aquí',
+		'Contact',
+		'Contact us and we will help you identify the piece your car needs',
+		'Name*',
+		'Your name here',
 		'Email*',
-		'Ingrese su email aquí',
-		'País*',
-		'Seleccione un país',
-		'Mensaje*',
-		'Escriba su mensaje',
-		'Enviar'
+		'Your email here',
+		'Country*',
+		'Select a country',
+		'Message*',
+		'Write your message',
+		'Send'
 	),
 
 	// Necesita asesoría
 	'necesita_asesoria' => array(
-		'¿Necesita asesoría?',
-		'¿No sabe exactamente dónde esta el VIN o número de Chasis? Póngase en contacto con nosotros y le asesoraremos para poder identificar el VIN o el número de Chasis que necesita para la cotización.',
-		'Contacto'
+		'¿Need Help?',
+		'¿Don´t you know exactly where the VIN or Chassis Numer is? Contact us and we will help you identify this information and make the quotation of your autopart.',
+		'Contact us'
 	),
 
 	'msj-incompleto'       => 'All fields with (*) are required.',

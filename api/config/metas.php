@@ -57,12 +57,24 @@ return array(
 				'keywords' => 'autopartes, repuestos, repuestos originales, envío de autopartes, venta de autopartes',
 				'img' => '',
 			),
+			'en' => array(
+				'titulo' => 'Quotation',
+				'descripcion' => 'Provide the VIN or Chassis number to identify the replacement your car needs. ¡Price your autoparts!',
+				'keywords' => 'auto parts, replacements, original replacements, auto parts shipping, auto parts sale, chassis, chassis number, car parts, quotation, vin, autoparts',
+				'img' => '',
+			),
 		),
 		'nosotros' => array(
 			'es' => array(
 				'titulo' => 'Nosotros',
 				'descripcion' => 'AutopartGo! es el mejor servicio de atención personalizada para repuestos de cualquier vehículo. Ofrecemos un servicio eficaz que resuelve su búsqueda de autopartes en el menor tiempo posible. ¡Conozcanos!',
 				'keywords' => 'autopartes, repuestos, repuestos originales, autopartes a pedido, chasis, piezas para autos, partes de vehículos, repuestos a pedido, envío de autopartes, venta de autopartes',
+				'img' => '',
+			),
+			'en' => array(
+				'titulo' => 'About Us',
+				'descripcion' => 'AutopartGo! is the best specialized attention service to fix your car. We offer an efficient service that helps you to solve your autoparts search as fast as possible.  ¡Meet Us!',
+				'keywords' => 'auto parts, replacementes, original replacements, auto parts shipping, auto parts sale, chassis, car parts, about us, autoparts',
 				'img' => '',
 			),
 		),
@@ -73,15 +85,13 @@ return array(
 				'keywords' => 'autopartes, repuestos, repuestos originales, envío de autopartes, venta de autopartes',
 				'img' => '',
 			),
+			'en' => array(
+				'titulo' => 'Contact',
+				'descripcion' => 'AutopartGo! is the best specialized attention service to fix your car. We offer and efficient service that helps you to solve your autoparts search as fast as possible.  ¡Meet Us!',
+				'keywords' => 'autoparts, replacements, original replacements, autoparts shipping, autoparts sale, contact',
+				'img' => '',
+			),
 		),
-		// Array de ejemplo para agregar si se agrega un página nueva
-		// 'nombre-de-la-sección' => array(
-		// 	'es' => array(
-		// 		'titulo' => '',
-		// 		'descripcion' => '',
-		// 		'img' => '',
-		// 	),
-		// ),
 	)
 
 );

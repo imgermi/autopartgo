@@ -12,6 +12,8 @@
 
 	include('header.php');
 	Plugins::activar('slick');
+
+	url('cotizar');
 ?>
 
 <section class="top">

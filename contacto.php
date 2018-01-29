@@ -13,6 +13,8 @@
 	include('header.php');
 	Plugins::activar('googleMaps');
 	Plugins::activar('slick');
+
+	url('contacto');
 ?>
 
 <section class="top">

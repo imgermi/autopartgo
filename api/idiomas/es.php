@@ -46,6 +46,10 @@ return array(
 		'Términos y Condiciones'
 	),
 
+	'nav__alt' => array(
+		'Venta de Autopartes a Latinoamérica | AutopartGo!' // logo
+	),
+
 	'footer' => array(
 		'Seguinos',
 		'Contactanos',
@@ -56,6 +60,7 @@ return array(
 		'Venta de autopartes a todo <strong>Latinoamérica</strong>.',
 		'Brindamos nuestros servicios para que pueda conseguir sus autopartes a precios más bajos que el mercado local.'
 	),
+
 	'home_realizar_pedido' => array(
 		'¿Cómo realizar un pedido?',
 		'Envíe su formulario',
@@ -66,16 +71,29 @@ return array(
 		'Su repuesto ya estará en camino. Estaremos contactándonos con usted para corroborar que su pieza llegue en tiempo y forma.',
 		'Cotizar autopartes'
 	),
+
+	'home_realizar_pedido__alt' => array(
+		'Enviar formulario de consulta sobre repuestos',
+		'Atención personalizada sobre disponibilidad de autopartes',
+		'Envío de las autopartes al cliente'
+	),
+
 	'home_medios_pago' => array(
 		'Medios de pago',
 		'Paypal',
 		'Comuníquese con un representante',
 	),
+
 	'home_autopartgo' => array(
 		'¿Qué es AutoPartGo?',
 		'En AutopartGo! vendemos y enviamos piezas originales o alternativas compatibles con tu automóvil; pueden enviarse reemplazos de carrocería, interiores, suspensión, piezas de alto rendimiento y demás repuestos necesarios para el funcionamiento óptimo de cada modelo. Tan solo con un <strong>número de chasis (VIN)</strong> y el modelo específico, podemos comenzar nuestra localización del repuesto que usted busca.',
 		'Nosotros'
 	),
+
+	'home_autopartgo__alt' => array(
+		'AutoPartGo! | Repuestos originales para su vehículo'
+	),
+
 	'home_slider_double' => array(
 		'Carrocería',
 		'Trabajamos con repuestos de carrocería originales y de reemplazo para lograr la misma calidad que tenían las piezas de su modelo; trabajamos con ópticas, soportes, faros, frentes, pisos, zócalos, chasis, guardabarros y más.',
@@ -89,6 +107,14 @@ return array(
 		'Podemos localizar diferentes repuestos para camionetas 4x4, 4x2, todo terreno y SUV. Desde llantas, paragolpes, protecciones, podemos ofrecer cualquier autoparte personalizada para su requerimiento.',
 		'Alto rendimiento y competencias',
 		'Repuestos para amplificar la respuesta de los componentes del sistema de frenos, protección contra la ebullición y posterior perdida de eficiencia de altas temperaturas. Estas piezas brindadas por <strong>AutopartGo!</strong> proporcionan un frenado mas rápido, firme y consistente en la performance de la competencia.'
+	),
+
+	'home_slider_double__alt' => array(
+		'Repuestos originales de carrocería para su modelo',
+		'Repuestos de suspensión, electricidad y aire acondicionado de su vehículo',
+		'Autopartes para el interior de su vehículo',
+		'Autopartes para camionetas 4x4, SUV y todo terreno',
+		'Autopartes para vehículos de alto rendimiento y competencia'
 	),
 
 	// Cotizar
@@ -130,6 +156,12 @@ return array(
 		'Brindamos repuestos originales y de reemplazo para reparaciones de cualquier tipo de vehículo. Podemos enviar todo tipo de autopartes originales mientras la regulación sobre importaciones de su país lo permita. Una vez, enviado, la responsabilidad sobre el desaduanaje dependerá de la empresa courrier y del comprador conforme a la legislación nacional de cada país.',
 		'Servicio Personalizado para cada cliente',
 		'Atención particular en cada cotización, para informar acerca de la disponibilidad de las autopartes en el menor tiempo posible y brindar repuestos originales al costo mínimo.'
+	),
+
+	'nosotros__alt' => array(
+		'Amplia gama de repuestos para todas las marcas y modelos',
+		'Autopartes a precios de exportación',
+		'Servicio personalizado de AutopartGo! para cada cliente'
 	),
 
 	// Contacto

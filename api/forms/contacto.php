@@ -13,7 +13,7 @@ $form_contacto = new Formulario(
 		'remitente' => array(
 			'nombre' => 'Web '.Config::obtener('empresa')->nombre,
 			// Completar con el dominio del cliente ej: web@kodent.com.ar
-			'email' => 'web@autopartgo.com' // Email ficticio 
+			'email' => 'web@autopartgo.com' // Email ficticio
 		),
 		'responder_a' => array(
 			'nombre' => 'nombre',
@@ -36,7 +36,7 @@ $form_contacto->agregarCampos(
 			'label' 	=> 'Nombre',
 			'tipo' 		=> 'text',
 			'validar' 	=> array('requerido'),
-		),	
+		),
 
 		array(
 			'name' 		=> 'email',
@@ -70,15 +70,15 @@ $form_contacto->agregarCampos(
 );
 
 // Solo usar si hay idioma
-	// $form_contacto->agregarMensajeEstado(
-	// 	array (
-	// 		'incompleto'       =>  __('msj-incompleto'),
-	// 		'error'            =>  __('msj-error'),
-	// 		'mail_invalido'    =>  __('msj-mail_invalido'),
-	// 		'captcha_invalido' =>  __('msj-captcha_invalido'),
-	// 		'ok'               =>  __('msj-ok'),
-	// 	)
-	// );
+	$form_contacto->agregarMensajeEstado(
+		array (
+			'incompleto'       =>  __('msj-incompleto'),
+			'error'            =>  __('msj-error'),
+			'mail_invalido'    =>  __('msj-mail_invalido'),
+			'captcha_invalido' =>  __('msj-captcha_invalido'),
+			'ok'               =>  __('msj-ok'),
+		)
+	);
 
 // enviar_contacto tiene que corresponder con el name del botón de submit
 if( isset($_POST['enviar_contacto']) ){

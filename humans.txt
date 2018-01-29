@@ -1,6 +1,8 @@
 
 /* Equipo */
 
+	Weland Agency (weland.com.ar)
+
 	Diseño y Desarrollo: Juan Martín Germano
 	Email: juanmartingermano [at] gmail.com
 	Ubicación: Capital Federal, Buenos Aires, Argentina
