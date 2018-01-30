@@ -45,7 +45,7 @@ return array(
 	* que se genera automáticamente.
 	*
 	*/
-	// 'base_url' => 'http://localhost:8888/weland/AutoPartGo/',
+	// 'base_url' => 'http://localhost:8888/localhost/AutoPartGo/',
 	'base_url' => '',
 
 	/*

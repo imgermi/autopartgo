@@ -33,7 +33,7 @@
 				<p><?= __('footer 1'); ?></p>
 				<ul class="contact">
 					<li><a href="tel:5613048119">(561) 304-8119</a></li>
-					<li><a href="https://www.google.com.ar/maps/place/8428+NW+66th+St,+Miami,+FL+33166,+USA/@25.8329732,-80.3363095,16.49z/data=!4m5!3m4!1s0x88d9bbc65108c9b5:0x2566c8867fd8a24b!8m2!3d25.8334341!4d-80.334734" target="_blank">48428 NW 66TH St, Miami, FL 33166-2629</a></li>
+					<li><a href="https://www.google.com.ar/maps/place/8428+NW+66th+St,+Miami,+FL+33166,+USA/@25.8329732,-80.3363095,16.49z/data=!4m5!3m4!1s0x88d9bbc65108c9b5:0x2566c8867fd8a24b!8m2!3d25.8334341!4d-80.334734" target="_blank">8428 NW 66TH St, Miami, FL 33166-2629 <br> United States</a></li>
 				</ul>
 			</article>
 

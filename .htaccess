@@ -54,7 +54,7 @@
     # Options +SymLinksIfOwnerMatch
 
     # (4)
-    # RewriteBase /weland/AutoPartGo/
+    # RewriteBase /localhost/AutoPartGo/
       RewriteBase /
 
     # (5)
@@ -171,6 +171,8 @@ RewriteRule ^([a-z]{2})/(.*)         $2?idioma=$1 [QSA,PT]
 RewriteRule ^about-us$ nosotros.php [L,NC]
 RewriteRule ^contact$ contacto.php [L,NC]
 RewriteRule ^quotation$ cotizar.php [L,NC]
+RewriteRule ^terms-and-conditions$ terminos-y-condiciones.php [L,NC]
+RewriteRule ^payment-ways$ medios-de-pago.php [L,NC]
 #########################
 
 

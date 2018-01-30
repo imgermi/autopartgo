@@ -92,6 +92,34 @@ return array(
 				'img' => '',
 			),
 		),
+		'terminos-y-condiciones' => array(
+			'es' => array(
+				'titulo' => 'Términos y Condiciones',
+				'descripcion' => '',
+				'keywords' => '',
+				'img' => '',
+			),
+			'en' => array(
+				'titulo' => 'Terms and Conditions',
+				'descripcion' => '',
+				'keywords' => '',
+				'img' => '',
+			),
+		),
+		'medios-de-pago' => array(
+			'es' => array(
+				'titulo' => 'Medios de Pago',
+				'descripcion' => '',
+				'keywords' => '',
+				'img' => '',
+			),
+			'en' => array(
+				'titulo' => 'Payment Ways',
+				'descripcion' => '',
+				'keywords' => '',
+				'img' => '',
+			),
+		),
 	)
 
 );

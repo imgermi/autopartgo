@@ -44,5 +44,6 @@ return array(
 	'nosotros' => '(es:nosotros|en:about-us)',
 	'cotizar' => '(es:cotizar|en:quotation)',
 	'contacto' => '(es:contacto|en:contact)',
-
+	'terminos-y-condiciones' => '(es:terminos-y-condiciones|en:terms-and-conditions)',
+	'medios-de-pago' => '(es:medios-de-pago|en:payment-ways)',
 );

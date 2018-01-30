@@ -1188,3 +1188,16 @@ form p {
 .s_contacto form button {
   margin-bottom: 60px;
 }
+
+.s_terminos-y-condiciones .top, .s_medios-de-pago .top {
+  background: #CE2840;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 55px 0;
+}
+
+.s_terminos-y-condiciones .top h1, .s_medios-de-pago .top h1 {
+  color: #C2C9D0;
+  font-size: 48px;
+  line-height: 54px;
+}

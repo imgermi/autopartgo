@@ -186,6 +186,14 @@ return array(
 		'Contacto'
 	),
 
+	'terminos' => array(
+		'Términos y Condiciones'
+	),
+
+	'medios' => array(
+		'Medios de Pago'
+	),
+
 	'msj-incompleto'       => 'Todos los campos con asterisco (*) son requeridos.',
 	'msj-error'            => 'Hubo un error. Por favor, intente nuevamente.',
 	'msj-mail_invalido'    => 'El email ingresado es inválido. Por favor, vuelva a ingresarlo.',

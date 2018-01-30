@@ -151,6 +151,14 @@ return array(
 		'Contact us'
 	),
 
+	'terminos' => array(
+		'Terms & Conditions'
+	),
+
+	'medios' => array(
+		'Payment Ways'
+	),
+
 	'msj-incompleto'       => 'All fields with (*) are required.',
 	'msj-error'            => 'There was an error. Please, try again.',
 	'msj-mail_invalido'    => 'The email is invalid. Please, write it again.',
