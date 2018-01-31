@@ -8,7 +8,7 @@ $(document).ready(function(){
 	* Con la función cargarPlugin() definimos si se carga o no y con cargarRecursos()
 	* cargamos dinámicamente todas las dependencias del script que queremos ejecutar.
 	*
-	* CargarPlugin() lee un array creado con el método Plugins::activar() del helper 
+	* CargarPlugin() lee un array creado con el método Plugins::activar() del helper
 	* Plugins (core/Plugins.php)
 	*
 	* Ej :  Plugins::activar('owlCarousel')
@@ -25,11 +25,11 @@ $(document).ready(function(){
 
 		], function(){
 			wow = new WOW({
-				boxClass:     'wow',     
+				boxClass:     'wow',
 				animateClass: 'animated',
-				offset:       0,         
-				mobile:       true,      
-				live:         false       
+				offset:       0,
+				mobile:       true,
+				live:         false
 		    }).init();
 		});
 	}
@@ -95,8 +95,11 @@ $(document).ready(function(){
 				  dots: false,
 				  focusOnSelect: false,
 				  autoplay: true,
-				  autoplaySpeed: 2000,
-				  asNavFor: '.slider-double-nav'
+				  autoplaySpeed: 8000,
+				  speed: 900,
+				  asNavFor: '.slider-double-nav',
+				  fade: true,
+				  cssEase: 'linear'
 				});
 				$('.slider-double-nav').slick({
 				  slidesToScroll: 1,
@@ -105,7 +108,7 @@ $(document).ready(function(){
 				  dots: true,
 				  focusOnSelect: false,
 				  autoplay: true,
-				  autoplaySpeed: 2000,
+				  autoplaySpeed: 8000,
 				  asNavFor: '.slider-double',
 				  responsive: [
 				  	{
