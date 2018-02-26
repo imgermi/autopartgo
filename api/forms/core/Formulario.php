@@ -212,12 +212,13 @@ Class Formulario{
 			}else{
 
 				require_once(API_PATH.'forms/libs/PHPMailer/PHPMailerAutoload.php');
+				require_once(API_PATH.'forms/libs/PHPMailer/class.smtp.php');
 
 				try {
 					$PHPMailer = new PHPMailer();
 
-					// $PHPMailer->IsSMTP(true); // enable SMTP
-					$PHPMailer->SMTPDebug = 2; // debugging: 1 = errors and messages, 2 = messages only
+					$PHPMailer->IsSMTP(); // enable SMTP
+					$PHPMailer->SMTPDebug = 3; // debugging: 1 = errors and messages, 2 = messages only
 					$PHPMailer->SMTPAuth = true; // authentication enabled
 					$PHPMailer->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for Gmail
 					$PHPMailer->Host = "smtp.gmail.com";
@@ -228,8 +229,8 @@ Class Formulario{
 					$PHPMailer->CharSet  = "UTF-8";
 					$PHPMailer->IsHTML(true);
 					$PHPMailer->Subject  = $this->config['asunto'];
-					// $PHPMailer->From     = $this->config['remitente']['email'];
-					// $PHPMailer->FromName = $this->config['remitente']['nombre'];
+					$PHPMailer->From     = $this->config['remitente']['email'];
+					$PHPMailer->FromName = $this->config['remitente']['nombre'];
 
 					$PHPMailer->ClearReplyTos();
 					$PHPMailer->AddReplyTo(
