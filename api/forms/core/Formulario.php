@@ -212,7 +212,8 @@ Class Formulario{
 			}else{
 
 				require_once(API_PATH.'forms/libs/PHPMailer/PHPMailerAutoload.php');
-				require_once(API_PATH.'forms/libs/PHPMailer/class.smtp.php');
+				require(API_PATH.'forms/libs/PHPMailer/class.phpmailer.php');
+				require(API_PATH.'forms/libs/PHPMailer/class.smtp.php');
 
 				try {
 					$PHPMailer = new PHPMailer();
