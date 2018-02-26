@@ -228,8 +228,8 @@ Class Formulario{
 					$PHPMailer->CharSet  = "UTF-8";
 					$PHPMailer->IsHTML(true);
 					$PHPMailer->Subject  = $this->config['asunto'];
-					$PHPMailer->From     = $this->config['remitente']['email'];
-					$PHPMailer->FromName = $this->config['remitente']['nombre'];
+					// $PHPMailer->From     = $this->config['remitente']['email'];
+					// $PHPMailer->FromName = $this->config['remitente']['nombre'];
 
 					$PHPMailer->ClearReplyTos();
 					$PHPMailer->AddReplyTo(
