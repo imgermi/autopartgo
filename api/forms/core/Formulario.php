@@ -216,7 +216,7 @@ Class Formulario{
 				try {
 					$PHPMailer = new PHPMailer();
 
-					$mail->IsSMTP(); // enable SMTP
+					// $mail->SMTPSecure = 'tls';
 					$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
 					$mail->SMTPAuth = true; // authentication enabled
 					$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
