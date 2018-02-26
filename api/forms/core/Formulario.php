@@ -216,10 +216,10 @@ Class Formulario{
 				try {
 					$PHPMailer = new PHPMailer();
 
-					$mail->SMTPSecure = 'tls';
-					$mail->SMTPDebug = 2; // debugging: 1 = errors and messages, 2 = messages only
+					$mail->IsSMTP(); // enable SMTP
+					$mail->SMTPDebug = 0; // debugging: 1 = errors and messages, 2 = messages only
 					$mail->SMTPAuth = true; // authentication enabled
-					// $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
+					$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
 					$mail->Host = "smtp.gmail.com";
 					$mail->Port = 465; // or 587
 					$mail->Username = "juanmartingermano@gmail.com";
