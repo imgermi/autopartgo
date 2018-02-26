@@ -47,8 +47,9 @@ return array(
 	*
 	*/
 	// 'base_url' => 'http://localhost:8888/localhost/AutoPartGo/',
-	'base_url' => 'https://autopartgo-194514.appspot.com/',
+	// 'base_url' => 'https://autopartgo-194514.appspot.com/',
 	// 'base_url' => 'http://localhost:8080/',
+	'base_url' => 'https://autopartgo.herokuapp.com/',
 
 	/*
 	* RUTA BASE
