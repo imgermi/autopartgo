@@ -1,0 +1,53 @@
+runtime: php55
+api_version: 1
+
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- sftp-config.json
+- node_modules/
+- ^.*node_modules(/.*)?
+
+handlers:
+- url: /
+  script: index.php
+
+- url: /es/
+  script: index.php
+
+- url: /en/
+  script: index.php
+
+- url: /es/cotizar
+  script: cotizar.php
+
+- url: /en/quotation
+  script: cotizar.php
+
+- url: /es/nosotros
+  script: nosotros.php
+
+- url: /en/about-us
+  script: nosotros.php
+
+- url: /es/contacto
+  script: contacto.php
+
+- url: /en/contact
+  script: contacto.php
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /images
+  static_dir: images
+

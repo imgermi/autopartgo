@@ -18,7 +18,7 @@ return array(
 	* Opciones: desarrollo, produccion
 	*
 	*/
-	'enviroment' => 'produccion',
+	'enviroment' => 'desarrollo',
 
 	/*
 	* DOMINIOS PERMITIDOS
@@ -32,7 +32,8 @@ return array(
 	'dominios_permitidos' => array(
 		'localhost',
 		'192.168.0.152',
-		'autopartgo.herokuapp.com'
+		'autopartgo.herokuapp.com',
+		'autopartgo-194514.appspot.com',
 	),
 
 	/*
@@ -46,7 +47,8 @@ return array(
 	*
 	*/
 	// 'base_url' => 'http://localhost:8888/localhost/AutoPartGo/',
-	'base_url' => '',
+	'base_url' => 'https://autopartgo-194514.appspot.com/',
+	// 'base_url' => 'http://localhost:8080/',
 
 	/*
 	* RUTA BASE

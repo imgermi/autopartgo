@@ -39,7 +39,6 @@
 */
 
 return array(
-
 	'home' => '',
 	'nosotros' => '(es:nosotros|en:about-us)',
 	'cotizar' => '(es:cotizar|en:quotation)',

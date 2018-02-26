@@ -1,6 +1,6 @@
 // Antes de empezar a cargar las fuentes, asegurate de descargar variante por variante desde Font Squirrel y ubicarlas por carpetas separadas en fonts/.
 
-// En este archivo, tenés que definir una variable por cada variante tipográfica, con su respectivo observer. Luego, tenés que agregarlas en cada stage, en el 'Promise.all', utilizando los nombres de las variables que definiste. 
+// En este archivo, tenés que definir una variable por cada variante tipográfica, con su respectivo observer. Luego, tenés que agregarlas en cada stage, en el 'Promise.all', utilizando los nombres de las variables que definiste.
 
 /* Fonts */
 (function() {
@@ -24,7 +24,7 @@
 	f&&-1!=g||-1!=f&&-1!=h||-1!=g&&-1!=h)(b=f!=g&&f!=h&&g!=h)||(null===B&&(b=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),B=!!b&&(536>parseInt(b[1],10)||536===parseInt(b[1],10)&&11>=parseInt(b[2],10))),b=B&&(f==v&&g==v&&h==v||f==w&&g==w&&h==w||f==x&&g==x&&h==x)),b=!b;b&&(d.parentNode&&d.parentNode.removeChild(d),clearTimeout(q),a(c))}function I(){if((new Date).getTime()-H>=D)d.parentNode&&d.parentNode.removeChild(d),b(c);else{var a=document.hidden;if(!0===a||void 0===a)f=e.a.offsetWidth,
 	g=n.a.offsetWidth,h=p.a.offsetWidth,u();q=setTimeout(I,50)}}var e=new r(k),n=new r(k),p=new r(k),f=-1,g=-1,h=-1,v=-1,w=-1,x=-1,d=document.createElement("div");d.dir="ltr";t(e,L(c,"sans-serif"));t(n,L(c,"serif"));t(p,L(c,"monospace"));d.appendChild(e.a);d.appendChild(n.a);d.appendChild(p.a);document.body.appendChild(d);v=e.a.offsetWidth;w=n.a.offsetWidth;x=p.a.offsetWidth;I();z(e,function(a){f=a;u()});t(e,L(c,'"'+c.family+'",sans-serif'));z(n,function(a){g=a;u()});t(n,L(c,'"'+c.family+'",serif'));
 	z(p,function(a){h=a;u()});t(p,L(c,'"'+c.family+'",monospace'))})})};"object"===typeof module?module.exports=A:(window.FontFaceObserver=A,window.FontFaceObserver.prototype.load=A.prototype.load);}());
-	
+
 	var timeout = 5000;
 
 	// Cargamos las fuentes principales
@@ -45,7 +45,7 @@
 		});
 
 		Promise.all([
-			KanitSemiBold.load(), 
+			KanitSemiBold.load(),
 
 		]).then(function () {
 			console.log('Stage 2 Complete');
