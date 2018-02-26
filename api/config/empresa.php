@@ -10,11 +10,11 @@
 * están definidos ahora.
 
 Config::obtener('empresa')->fijo_enlace
-* 
+*
 */
 
 return array(
-	
+
 	'nombre' 	=> 'Autopartgo!',
 	'redes' 	=> array(),
 	'telefono' 	=> '',
